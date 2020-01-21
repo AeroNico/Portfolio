@@ -1,0 +1,27 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Alata', sans-serif;
+}
+
+.heroheight {
+object-fit: cover; /* Do not scale the image */
+object-position: center; /* Center the image within the element */
+width: 100%;
+max-height: 92vh;
+z-index: 0
+}
+
+#hero {
+  padding:0;
+
+}
+
+.jumbotron {
+  z-index: 1;
+  margin-top:-40vh;
+  padding:0;
+  margin-bottom:0;
+}
